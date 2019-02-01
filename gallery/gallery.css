@@ -1,0 +1,121 @@
+.container {
+    height: auto;
+    width: 60%;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    margin: 0px auto;
+    background-color: silver;
+    font-size: 52px;
+}
+.text {
+    padding: 10px;
+    color: #333;
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, san-serif;
+}
+.frame {
+    margin: 20px auto;
+    height: 390px;
+    width: 400px;
+    background-color: #F0F0F0;
+    overflow: auto;
+    border: 5px solid #333;
+    -webkit-box-shadow:5px 5px grey;
+    box-shadow:5px 5px grey;
+    border-radius: 10px 10px 10px 10px;
+}
+#frm {
+    margin-left: 20px;
+    margin-top: 27px;
+    height: 307px;
+    width: 331px;
+    overflow: hidden;
+    border: 2px solid #333;
+    border-radius: 10px 10px 10px 10px;
+    background-color: silver;
+}
+.pic img{
+    height: 307px;
+    width: 330px;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transition: all ease;
+    transition: all ease;
+}
+.pic .one:hover {
+    transform: rotate(45deg);
+}
+
+.lyk {
+    width: 30px;
+    height:30px;
+    margin-left: 5px;
+}
+.lykbtn {
+    margin-top: 10px;
+    cursor: pointer;
+}
+.close {
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.closebnt {
+    width: 25px;
+    height: 25px;
+    float: right;
+    cursor: pointer;
+}
+.usr {
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #333;
+    margin-left: 5px;
+}
+.combtn {
+    border-radius: 5px 5px 5px 5px;
+    background-color: #00CC00;
+    font-weight: bold;
+    padding: 2px auto;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.combox {
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #333;
+    height: 60px;
+    width: 97%;
+    padding: 2px auto;
+    margin-left: 5px;
+}
+.txt {
+    font-size: 20px;
+    padding: 2px auto;
+    margin-left: 5px;
+}
+.com {
+    margin-left: 5px;
+    font-size: 20px;
+}
+.noImg {
+    text-align: center;
+    font-family: 'Great Vibes';
+}
+
+@media (max-width: 600px) {
+    .container, .text {
+        width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .frame {
+        width: 100%;
+    }
+}@media (max-width: 50px) {
+    #frm {
+        width: 100%;
+    }
+}@media (max-width: 600px) {
+    .pic img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,1 @@
+<div class="footer">&copy<em>2018 - sbxaba</em></div>
